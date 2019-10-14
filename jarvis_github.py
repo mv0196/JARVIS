@@ -116,7 +116,7 @@ if __name__=="__main__":
 
 
         elif "play" in query and "music" in query:
-            music_dir="E:\\MUKUL_VERMA\\9-april-2019\\Music"
+            music_dir="path to music directory"
             songs=os.listdir(path=music_dir)
             s=random.randint(1,len(songs)-1)
             while songs[s][-3:]!='mp3':
